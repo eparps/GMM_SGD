@@ -26,7 +26,7 @@ sd_y = [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 
 rho = [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
 pi = [0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05]
 
-![output1](https://github.com/eparps/GMM_SGD/blob/main/image/output1.png)
+![output1](https://github.com/eparps/GMM_SGD/blob/main/image/output1.png?raw=true)
 ```
 
 ## Generate the training distributions
