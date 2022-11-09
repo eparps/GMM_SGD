@@ -25,9 +25,8 @@ sd_x = [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 
 sd_y = [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
 rho = [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
 pi = [0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05]
-
-![output1](https://github.com/eparps/GMM_SGD/blob/main/image/output1.png?raw=true)
 ```
+![output1](https://github.com/eparps/GMM_SGD/blob/main/image/output1.png)
 
 ## Generate the training distributions
 Next, we generate the training distributions by inputing a dataframe containing the real world dataset. The training distributions will then be fitted using the provided dataset, which should look something like the following:
@@ -97,9 +96,8 @@ sd_x = [0.738 0.678 0.769]
 sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.333 0.333 0.333]
-
-![output2](https://github.com/eparps/GMM_SGD/blob/main/image/output2.png)
 ```
+![output2](https://github.com/eparps/GMM_SGD/blob/main/image/output2.png)
 
 ## Run the simulation
 To start the simulation, use the `sim()` method and specify the values for each argument:
@@ -142,7 +140,7 @@ Training Bhattacharyya distances: {'s-ɕ': 1.896, 's-ʂ': 1.52, 'ɕ-ʂ': 0.28}
 Mean training Bhattacharyya distance: 1.232
 Resulting Bhattacharyya distances: {'s-ɕ': 1.868, 's-ʂ': 1.507, 'ɕ-ʂ': 0.271}
 Mean resulting Bhattacharyya distance: 1.215
-
+```
 ![output3](https://github.com/eparps/GMM_SGD/blob/main/image/output3.png)
 ![output4](https://github.com/eparps/GMM_SGD/blob/main/image/output4.png)
 ![output5](https://github.com/eparps/GMM_SGD/blob/main/image/output5.png)
@@ -151,7 +149,6 @@ Mean resulting Bhattacharyya distance: 1.215
 ![output8](https://github.com/eparps/GMM_SGD/blob/main/image/output8.png)
 ![output9](https://github.com/eparps/GMM_SGD/blob/main/image/output9.png)
 ![output10](https://github.com/eparps/GMM_SGD/blob/main/image/output10.png)
-```
 
 ## Manually specify the weight for each traning category (*p.43* of the thesis)
 If we were to manually specify the wieght for each training category, simply use the `training_pi` argument, for example:
@@ -169,9 +166,8 @@ sd_x = [0.738 0.678 0.769]
 sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.45 0.1  0.45]
-
-![output11](https://github.com/eparps/GMM_SGD/blob/main/image/output11.png)
 ```
+![output11](https://github.com/eparps/GMM_SGD/blob/main/image/output11.png)
 
 ## References
 [Toscano, J. C. & McMurray, B. (2010). Cue integration with categories: Weighting acoustic cues in speech using unsupervised learning and distributional statistics. *Cognitive science*, 34(3):434-464.](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1551-6709.2009.01077.x)
