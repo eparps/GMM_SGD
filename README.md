@@ -26,7 +26,7 @@ sd_y = [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 
 rho = [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
 pi = [0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05]
 
-![output1](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output1.png)
+![output1](https://github.com/eparps/GMM_SGD/blob/main/image/output1.png)
 ```
 
 ## Generate the training distributions
@@ -98,7 +98,7 @@ sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.333 0.333 0.333]
 
-![output2](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output2.png)
+![output2](https://github.com/eparps/GMM_SGD/blob/main/image/output2.png)
 ```
 
 ## Run the simulation
@@ -143,14 +143,14 @@ Mean training Bhattacharyya distance: 1.232
 Resulting Bhattacharyya distances: {'s-ɕ': 1.868, 's-ʂ': 1.507, 'ɕ-ʂ': 0.271}
 Mean resulting Bhattacharyya distance: 1.215
 
-![output3](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output3.png)
-![output4](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output4.png)
-![output5](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output5.png)
-![output6](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output6.png)
-![output7](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output7.png)
-![output8](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output8.png)
-![output9](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output9.png)
-![output10](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output10.png)
+![output3](https://github.com/eparps/GMM_SGD/blob/main/image/output3.png)
+![output4](https://github.com/eparps/GMM_SGD/blob/main/image/output4.png)
+![output5](https://github.com/eparps/GMM_SGD/blob/main/image/output5.png)
+![output6](https://github.com/eparps/GMM_SGD/blob/main/image/output6.png)
+![output7](https://github.com/eparps/GMM_SGD/blob/main/image/output7.png)
+![output8](https://github.com/eparps/GMM_SGD/blob/main/image/output8.png)
+![output9](https://github.com/eparps/GMM_SGD/blob/main/image/output9.png)
+![output10](https://github.com/eparps/GMM_SGD/blob/main/image/output10.png)
 ```
 
 ## Manually specify the weight for each traning category (*p.43* of the thesis)
@@ -170,7 +170,7 @@ sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.45 0.1  0.45]
 
-![output11](https://github.com/eparps/GMM_SGD/blob/89bb953c3f4c00ca57a69782631bf7e81b164668/image/output11.png)
+![output11](https://github.com/eparps/GMM_SGD/blob/main/image/output11.png)
 ```
 
 ## References
