@@ -26,7 +26,7 @@ sd_y = [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 
 rho = [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
 pi = [0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05]
 
-![output1]()
+![output1](image/output1.png)
 ```
 
 ## Generate the training distributions
@@ -98,7 +98,7 @@ sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.333 0.333 0.333]
 
-![output2]()
+![output2](image/output2.png)
 ```
 
 ## Run the simulation
@@ -143,14 +143,14 @@ Mean training Bhattacharyya distance: 1.232
 Resulting Bhattacharyya distances: {'s-ɕ': 1.868, 's-ʂ': 1.507, 'ɕ-ʂ': 0.271}
 Mean resulting Bhattacharyya distance: 1.215
 
-![output3]()
-![output4]()
-![output5]()
-![output6]()
-![output7]()
-![output8]()
-![output9]()
-![output10]()
+![output3](image/output3.png)
+![output4](image/output4.png)
+![output5](image/output5.png)
+![output6](image/output6.png)
+![output7](image/output7.png)
+![output8](image/output8.png)
+![output9](image/output9.png)
+![output10](image/output10.png)
 ```
 
 ## Manually specify the weight for each traning category (*p.43* of the thesis)
@@ -170,7 +170,7 @@ sd_y = [0.737 0.979 0.745]
 rho = [ 0.56  -0.125  0.066]
 pi = [0.45 0.1  0.45]
 
-![output11]()
+![output11](image/output11.png)
 ```
 
 ## References
